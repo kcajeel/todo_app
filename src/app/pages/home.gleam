@@ -35,7 +35,7 @@ fn todos_input() -> Element(t) {
     ],
     [
       input([
-        name("todo__title"),
+        name("todo_title"),
         class("add-todo-input__input"),
         placeholder("What do you need TODO?"),
         autofocus(True),
